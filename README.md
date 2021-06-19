@@ -13,11 +13,11 @@ Python script used to check available doctolib apointments each t time and send 
 - Open network tab
 - Go to your doctor page and try to get availables apointments
 - Check on the developer console a link containing `availabilities.json` and write it down
-- Here is what you could get:
+- Here is what you could get:<br>
 `https://www.doctolib.fr/availabilities.json?start_date=2021-06-18&visit_motive_ids=689642&agenda_ids=117589&insurance_sector=public&practice_ids=43475&limit=3`
-- Replace start_date value by `' + str(tmp_begin_date) + '`
+- Replace start_date value by `' + str(tmp_begin_date) + '`<br>
 `https://www.doctolib.fr/availabilities.json?start_date=' + str(tmp_begin_date) + '&visit_motive_ids=689642&agenda_ids=117589&insurance_sector=public&practice_ids=43475&limit=3`
-- Change limit value to 14
+- Change limit value to 14<br>
 `https://www.doctolib.fr/availabilities.json?start_date=' + str(tmp_begin_date) + '&visit_motive_ids=689642&agenda_ids=117589&insurance_sector=public&practice_ids=43475&limit=14`
 - Write down this final link
 
